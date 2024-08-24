@@ -1,8 +1,3 @@
-# Estimation-of-Object-Sizes-in-Images
-A project for estimating real-world object dimensions in images using a known reference object and manual point selection.
-
-
----
 
 # Estimation of Object Sizes in Images
 
@@ -49,7 +44,8 @@ image = cv2.imread("path_to_image")
 
 2. **Run the Script**:
    - Load the image and apply the necessary transformations.
-     ![image](https://github.com/user-attachments/assets/eb3ed4ab-a73f-4414-96de-2c2455b6809c)
+   
+   ![image](https://github.com/user-attachments/assets/eb3ed4ab-a73f-4414-96de-2c2455b6809c)
 
    - Manually click on the image to select points corresponding to the width and height of the objects.
    - The script will output the estimated real-world dimensions of the target object.
